@@ -43,6 +43,7 @@ class BoxSelector:
         print(f"Top-left: ({x1}, {y1})")
         print(f"Bottom-right: ({x2}, {y2})")
         print(f"Width: {x2 - x1}, Height: {y2 - y1}")
+        print(f"top,left,width,height: {y1,x1, x2-x1, y2-y1}")
 
         self.root.destroy()
 
